@@ -4,7 +4,7 @@ title:  "Why I Started SF ESL Group"
 date:   2013-03-08
 ---
 
-<div class="center"><img src="/assets/sf-esl-group-logo.jpg"></div>
+<div class="center"><img src="/assets/sf-esl-group-logo.jpg" class="w50"></div>
 
 When I was about to leave to my country after 6 months stay as an ESL student, a friend of mine said to me see you soon. See you soon. As if it was just another everyday goodbye. I wanted to come back. I wanted to say I’m back. I got something important. As you know me living in San Francisco, luckily, thankfully, I could keep my promise.
 

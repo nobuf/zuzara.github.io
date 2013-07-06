@@ -15,6 +15,7 @@ a:hover {
 }
 @media (max-width: 767px) {
   .container {
+    max-width: none;
     width: 95%;
   }
 }
@@ -73,6 +74,9 @@ ul.posts li:before {
 }
 .post .w100 {
   width: 100%;
+}
+.post .w50 {
+  width: 50%;
 }
 .post .caption {
   color: #666;
