@@ -1,0 +1,72 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 600px;
+  width: 70%;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .container {
+    width: 95%;
+  }
+}
+.content {
+  line-height: 150%;
+}
+.content .content-quote {
+  font-style: italic;
+}
+ul.posts li {
+  list-style-type: none;
+  font-size: 1.2em;
+}
+ul.posts li:before {
+  content: "✗";
+  margin-right: 0.5em;
+}
+
+.footer {
+  margin: 3em 0;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+}
+.footer .picture {
+  float: left;
+}
+.footer .picture img {
+  display: block;
+}
+.footer .bio {
+  float: left;
+  margin-left: 1em;
+  width: 85%;
+}
+@media (max-width: 767px) {
+  .footer .bio {
+    width: 75%;
+  }
+}
+
+
+.nav {
+  text-align: right;
+}
+.meta {
+  text-align: right;
+  font-size: 0.9em;
+}
+.post h2 {
+  font-size: 3em;
+  margin-bottom: 0;
+  line-height: 1em;
+}
