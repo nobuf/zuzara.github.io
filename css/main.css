@@ -27,6 +27,7 @@ a:hover {
 ul.posts li {
   list-style-type: none;
   font-size: 1.2em;
+  line-height: 180%;
 }
 ul.posts li:before {
   content: "✗";
@@ -69,4 +70,14 @@ ul.posts li:before {
   font-size: 3em;
   margin-bottom: 0;
   line-height: 1em;
+}
+.post .w100 {
+  width: 100%;
+}
+.post .caption {
+  color: #666;
+  font-size: 0.8em;
+}
+.post .center {
+  text-align: center;
 }
