@@ -1,0 +1,35 @@
+.container {
+  max-width: 600px;
+  width: 70%;
+  margin: 2em auto;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+    width: 95%;
+  }
+}
+
+.item {
+  margin-bottom: 2em;
+  overflow: hidden;
+}
+.label {
+  width: 30%;
+  float: left;
+  clear: both;
+}
+.content {
+  width: 65%;
+  float: left;
+  margin-left: 5%;
+}
+.content p {
+  line-height: 150%;
+  margin-top: 0;
+}
+.label img {
+  width: 100%;
+}
